@@ -1,4 +1,4 @@
-import { BandSettingsButton } from '../components/BandSettingsButton/BandSettingsButton';
+import { BandSettingsButton } from './BandSettingsButton';
 
 export const amsRows = [
   {
