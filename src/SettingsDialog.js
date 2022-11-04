@@ -1,5 +1,5 @@
-import SettingsIcon from '@mui/icons-material/Settings';
-import { DataGridPro } from '@mui/x-data-grid-pro';
+import SettingsIcon from "@mui/icons-material/Settings";
+import { DataGridPro } from "@mui/x-data-grid-pro";
 
 import {
   Box,
@@ -8,9 +8,9 @@ import {
   DialogContent,
   DialogTitle,
   Stack,
-} from '@mui/material';
-import { useState } from 'react';
-import { dummyRows, browseColumns } from './dummyDataGridData';
+} from "@mui/material";
+import { useState } from "react";
+import { dummyRows, browseColumns } from "./dummyDataGridData";
 
 export default function SettingsDialog() {
   const [open, setOpen] = useState(false);
@@ -42,7 +42,7 @@ export default function SettingsDialog() {
       <Dialog onClose={handleClose} open={open} fullWidth maxWidth="lg">
         <DialogTitle>Settings</DialogTitle>
         <DialogContent>
-          <Box sx={{ height: 350, width: '100%' }}>
+          <Box sx={{ height: 350, width: "100%" }}>
             <DataGridPro
               rows={rows}
               columns={browseColumns}
